@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     searchMovies(searchTerm);
-  }, [movies]);
+  }, []);
 
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
