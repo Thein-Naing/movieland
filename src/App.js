@@ -6,14 +6,24 @@ import MovieCard from './MovieCard';
 
 const API_URL = "http://www.omdbapi.com?apikey=2c41f89d";
 
+const movie1 = {
+ "title": "Amazing Spiderman Syndrome",
+ "year": "2012",
+ "imdbID": "tt2586634",
+ "Type": "movie",
+ "Poster": "N/A"
+}
+
 
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
   const [movies, setMovies] = useState([]);
 
+
   useEffect(() => {
-    searchMovies("wonder woman");
-  });
+
+    searchMovies();
+  },[]);
 
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
