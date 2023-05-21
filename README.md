@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# Finally update code and now can deploy. You can check final site here : [
+](https://react-exercises-movieland-api.netlify.app/)
 
+# Getting Started with Create React App
+[
+](https://react-exercises-movieland-api.netlify.app/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
