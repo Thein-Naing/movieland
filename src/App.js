@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
 
-    searchMovies();
+    searchMovies('Wonder Woman');
   },[]);
 
   const searchMovies = async (title) => {
