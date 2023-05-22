@@ -1,3 +1,4 @@
+ This is from from JavaScript Mastery React JS Full Course 2023 | Build an App and Master React in 1 Hour and I changedsome styling and also some codings for deploy error issue. 
  Finally update code and now can deploy. You can check final site here : https://react-exercises-movieland-api.netlify.app/
 
 # Getting Started with Create React App
